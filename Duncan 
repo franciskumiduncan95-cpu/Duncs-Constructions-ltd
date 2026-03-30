@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunc's Construction Ltd</title>
+    <style>
+        :root {
+            --primary-blue: #003366;
+            --accent-orange: #ff6600;
+            --whatsapp-green: #25D366;
+            --bg-grey: #f4f4f4;
+        }
+
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding-bottom: 90px; background: var(--bg-grey); color: #333; }
+        
+        /* Header */
+        header { background: var(--primary-blue); color: white; padding: 20px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        
+        .container { max-width: 500px; margin: auto; padding: 15px; }
+
+        /* Card Styling */
+        .card { background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; text-align: center; }
+        
+        h1, h2 { color: var(--primary-blue); margin-top: 0; }
+        .motto { font-style: italic; color: #666; margin-bottom: 20px; }
+
+        /* About Section */
+        .about-text { text-align: left; line-height: 1.6; color: #555; font-size: 14px; }
+        .promise-list { text-align: left; background: #f9f9f9; padding: 10px 10px 10px 30px; border-radius: 8px; font-size: 14px; }
+
+        /* Main Action Button */
+        .main-btn { background: var(--accent-orange); color: white; border: none; padding: 15px 20px; border-radius: 10px; font-size: 18px; font-weight: bold; width: 100%; cursor: pointer; margin-top: 10px; }
+
+        /* Sticky Contact Bar */
+        .contact-bar { position: fixed; bottom: 0; width: 100%; background: white; display: flex; justify-content: space-around; padding: 15px 0; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); }
+        .btn-small { text-decoration: none; color: white; padding: 12px 20px; border-radius: 30px; font-weight: bold; font-size: 14px; flex: 0.4; text-align: center; }
+        .bg-blue { background: var(--primary-blue); }
+        .bg-green { background: var(--whatsapp-green); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h3 style="margin:0;">Dunc's Construction Ltd</h3>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h1>Welcome</h1>
+        <p class="motto">"Building Excellence, Brick by Brick."</p>
+        <p><strong>Location:</strong> Gomoa Ojobi, Central Region</p>
+        <button class="main-btn" onclick="location.href='https://www.jotform.com/app/260666814155562'">
+            Request a Quote
+        </button>
+    </div>
+
+    <div class="card">
+        <h2 style="font-size: 20px; border-bottom: 2px solid var(--accent-orange); display: inline-block; padding-bottom: 5px;">About Us</h2>
+        <p class="about-text">
+            Founded on integrity and superior craftsmanship, Dunc's Construction Ltd is a trusted name in the Central Region. Led by Mr. Duncan, we turn blueprints into reality.
+        </p>
+        <div class="promise-list">
+            <strong>Our Promise:</strong>
+            <ul>
+                <li>High-quality masonry work</li>
+                <li>Honest, transparent pricing</li>
+                <li>Professional management</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="contact-bar">
+    <a href="tel:0256529075" class="btn-small bg-blue">📞 Call Now</a>
+    <a href="https://wa.me/233256529075?text=Hello%20Mr.%20Duncan,%20I'm%20interested%20in%20a%20construction%20quote." class="btn-small bg-green">💬 WhatsApp</a>
+</div>
+
+</body>
+</html>
